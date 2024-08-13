@@ -1,6 +1,6 @@
 const token = 'YOUR_PERSONAL_ACCESS_TOKEN';
-const repoOwner = 'YOUR_GITHUB_USERNAME';
-const repoName = 'YOUR_REPO_NAME';
+const repoOwner = 'CodingKilling';
+const repoName = 'voting_func';
 
 function handleVote(voteOption) {
     const issueTitle = 'New Vote';
