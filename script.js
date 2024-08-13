@@ -1,4 +1,4 @@
-const token = 'YOUR_PERSONAL_ACCESS_TOKEN';
+const token = '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';
 const repoOwner = 'CodingKilling';
 const repoName = 'voting_func';
 
