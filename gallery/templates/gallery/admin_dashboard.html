@@ -1,0 +1,24 @@
+{% extends 'gallery/base.html' %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-4">
+        <h3>创建分类</h3>
+        <form method="post" action="{% url 'create_category' %}">
+            {% csrf_token %}
+            <div class="mb-3">
+                <input type="text" name="name" class="form-control" placeholder="分类名称">
+            </div>
+            <button type="submit" class="btn btn-primary">创建分类</button>
+        </form>
+    </div>
+    <div class="col-md-8">
+        <h3>上传图片</h3>
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="btn btn-primary">上传</button>
+        </form>
+    </div>
+</div>
+{% endblock %} 

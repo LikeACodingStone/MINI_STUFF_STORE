@@ -1,0 +1,18 @@
+image_gallery/
+    ├── manage.py
+    ├── image_gallery/
+    │   ├── __init__.py
+    │   ├── settings.py
+    │   ├── urls.py
+    │   └── wsgi.py
+    └── gallery/
+        ├── __init__.py
+        ├── models.py
+        ├── views.py
+        ├── forms.py
+        └── templates/
+            └── gallery/
+                ├── login.html
+                ├── register.html
+                ├── admin_dashboard.html
+                └── gallery_view.html 
